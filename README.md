@@ -1,5 +1,4 @@
 # APS_AMLO_API
-Retrieve Data from API to CSV with REST API
 
 ## Description
 
