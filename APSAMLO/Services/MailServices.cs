@@ -8,7 +8,7 @@ namespace APSAMLO.Services
 {
     public class MailServices : IMailServices
     {
-        private static IConfiguration? Configuration { get; set; }
+        public static IConfiguration? Configuration { get; set; }
         public async Task<Message> SendMail(MailRequest mailRequest)
         {
             using (var client = new HttpClient())
